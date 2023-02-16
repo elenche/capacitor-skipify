@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-skipify",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
