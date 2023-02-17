@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Capacitor + Skipify Integration
+		</ion-title>
+	</ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+	<p *ngIf="errorMessage" class="ion-text-center">{{ errorMessage }}</p>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+	<!-- Skipify Button will get rendered here -->
+	<div style="display: flex; justify-content: center;" [hidden]="errorMessage">
+		<div id="skipify-button-wrapper"></div>
+	</div>
 </ion-content>
