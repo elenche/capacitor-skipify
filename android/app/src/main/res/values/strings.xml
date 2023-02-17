@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Capacitor x Skipify</string>
+    <string name="title_activity_main">Capacitor x Skipify</string>
+    <string name="package_name">io.elenche.capacitor_skipify</string>
+    <string name="custom_url_scheme">io.elenche.capacitor_skipify</string>
+</resources>
