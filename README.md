@@ -5,20 +5,16 @@ Implementing only the `Skipify Button` feature.
 
 Successfully tested on platforms: `Web`, `Android`. Currently working on the `iOS` integration.
 
-<br />
 
 ## Documentation
 Use the former GoCartPay Staging URL and documentation [(link)](https://docs.gocartpay.com/docs/test-data).
 
-<br />
 
 ## Features
 
 - Dynamically initializing Skipify SDK with a MerchantID
 - Rendering the `Pay with Skipify` button
 - Processing payments
-
-<br />
 
 ## Usage
 
@@ -36,14 +32,12 @@ Use the former GoCartPay Staging URL and documentation [(link)](https://docs.goc
 
 Use test users and credit card numbers from the [Skipify Docs](https://docs.gocartpay.com/docs/test-data).
 
-<br />
 
 ## Installation
 1. Clone or fork the project
 3. Make sure your environment is ready to run the mobile apps [(link)](https://capacitorjs.com/docs/getting-started/environment-setup)
 2. Run `npm install` to install all dependencies
 
-<br />
 
 ## Testing
 
@@ -51,7 +45,6 @@ Use test users and credit card numbers from the [Skipify Docs](https://docs.goca
 
 `ionic serve`
 
-<br>
 
 ### Testing on device
 **Note:** if testing on a simulator, ensure you have simulators installed on Android Studio or XCode.
@@ -77,7 +70,6 @@ Replace **platform** with _android_ or _ios_:
 
 `iOS:` Safari -> Developer tab (enable it if it's not there) -> Simulator/Device name -> Localhost link -> Network tab
 
-<br>
 
 ## Make it your own
 All features are coded in `HomePage` for ease of use.
