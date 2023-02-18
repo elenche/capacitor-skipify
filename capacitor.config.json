@@ -1,5 +1,5 @@
 {
-	"appId": "io.ionic.starter",
+	"appId": "io.elenche.capacitor_skipify",
 	"appName": "capacitor-skipify",
 	"webDir": "www",
 	"bundledWebRuntime": false

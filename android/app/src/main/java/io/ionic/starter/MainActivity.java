@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package io.elenche.capacitor_skipify;
 
 import com.getcapacitor.BridgeActivity;
 
