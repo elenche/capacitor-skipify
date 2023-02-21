@@ -18,7 +18,7 @@ Use the former GoCartPay Staging URL and documentation [(link)](https://docs.goc
 
 ## Usage
 
-1. Add your Skipify Merchant ID to the property `SkipifyMerchantI` in the file `src/environments/environment.ts`  
+1. Add your Skipify Merchant ID to the property `SkipifyMerchantID` in the file `src/environments/environment.ts`  
 	e.g.:  `SkipifyMerchantID: 'MERCHANT_ID'`
 
 2. Add the following domains for whitelisting in `Skipify Merchant Portal -> Merchant Domains` [(link)](https://admin-staging.gocartpay.com/Overview/merchant-domains):
@@ -66,7 +66,7 @@ Replace **platform** with _android_ or _ios_:
    `ionic capacitor run <platform> --livereload`
 
 ### Inspecting the network traffic
-`Android:` Open [link](chrome://inspect/#devices) -> click on the connected device -> Network tab
+`Android:` Open `chrome://inspect/#devices` in browser -> click on the connected device -> Network tab
 
 `iOS:` Safari -> Developer tab (enable it if it's not there) -> Simulator/Device name -> Localhost link -> Network tab
 
