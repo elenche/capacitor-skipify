@@ -27,9 +27,11 @@ export class HomePage implements OnInit {
   private loadSkipifySDK() {
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://api-staging.gocartpay.com/merchants/' + environment.SkipifyMerchantID + '/sdk';
+    // script.src = 'https://api-staging.gocartpay.com/merchants/' + environment.SkipifyMerchantID + '/sdk';
+    script.src = 'https://api.gocartpay.com/merchants/' + environment.SkipifyMerchantID + '/sdk';
     document.body.appendChild(script);
     script.addEventListener('load', () => {
+      console.log('[Skipify] Loaded SDK');
       this.renderSkipifyButton();
     });
   }
